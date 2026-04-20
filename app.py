@@ -9,7 +9,7 @@ from datetime import datetime, timedelta
 # =========================================================
 # LOAD DATASET
 # =========================================================
-DATA_URL = "https://raw.githubusercontent.com/AyeshaaEman/smart-dashboard/main/updated_smart_healthcare_dataset_5000.csv"
+DATA_URL = "https://github.com/AbidManan/HomeAuto_Ehealth/blob/main/Smart_health_data.csv"
 df = pd.read_csv(DATA_URL)
 
 df = df.dropna()
